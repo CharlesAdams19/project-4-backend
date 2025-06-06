@@ -45,6 +45,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users',
+    'rest_framework',
+    'rest_framework_simplejwt',
+    'itineraries',
 
 
 ]
@@ -136,6 +139,19 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+}
+
+from datetime import timedelta
+
+SIMPLE_JWT = {
+    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=30),  # default is 5m, 30m is nicer for dev
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=1),     # usually 1 day or more
+}
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
