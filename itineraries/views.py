@@ -5,8 +5,6 @@ from .models import Itinerary
 from .serializers import ItinerarySerializer
 
 
-# Create your views here.
-
 class ItineraryListCreateView(ListCreateAPIView):
     # queryset = Itinerary.objects.all()
     serializer_class = ItinerarySerializer
