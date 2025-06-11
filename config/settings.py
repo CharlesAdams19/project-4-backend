@@ -68,7 +68,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'itineraries',
-    'corsheaders'
+    'corsheaders',
+    'django_extensions',
 
 
 ]
@@ -192,6 +193,3 @@ SIMPLE_JWT = {
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-]

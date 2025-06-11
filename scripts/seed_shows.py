@@ -98,6 +98,96 @@ shows = [
         "time": "19:00",
         "dates": ["2025-08-01", "2025-08-03", "2025-08-04"],
     },
+    {
+        "name": "The Invisible Magician",
+        "venue": "The Giggle Factory",
+        "time": "19:30",
+        "dates": ["2025-08-01", "2025-08-02", "2025-08-03"],
+    },
+    {
+        "name": "Dancing with Dinosaurs",
+        "venue": "Banana Cabaret",
+        "time": "20:30",
+        "dates": ["2025-08-02", "2025-08-03", "2025-08-04"],
+    },
+    {
+        "name": "Shakespeare for Dogs",
+        "venue": "Laugh Lounge",
+        "time": "21:30",
+        "dates": ["2025-08-03", "2025-08-04", "2025-08-05"],
+    },
+    {
+        "name": "Silent Opera",
+        "venue": "The Chuckle Hut",
+        "time": "19:30",
+        "dates": ["2025-08-01", "2025-08-02", "2025-08-03"],
+    },
+    {
+        "name": "The Human Jukebox",
+        "venue": "Wacky Warehouse",
+        "time": "20:30",
+        "dates": ["2025-08-04", "2025-08-05", "2025-08-06"],
+    },
+    {
+        "name": "Cooking with Clowns",
+        "venue": "The Giggle Factory",
+        "time": "21:30",
+        "dates": ["2025-08-02", "2025-08-03", "2025-08-04"],
+    },
+    {
+        "name": "Extreme Mime Show",
+        "venue": "Banana Cabaret",
+        "time": "19:30",
+        "dates": ["2025-08-01", "2025-08-03", "2025-08-05"],
+    },
+    {
+        "name": "Karaoke Shakespeare",
+        "venue": "Laugh Lounge",
+        "time": "20:30",
+        "dates": ["2025-08-02", "2025-08-04", "2025-08-06"],
+    },
+    {
+        "name": "Stand-up Physics",
+        "venue": "The Chuckle Hut",
+        "time": "21:30",
+        "dates": ["2025-08-01", "2025-08-02", "2025-08-03"],
+    },
+    {
+        "name": "The Ukulele Orchestra of Doom",
+        "venue": "Wacky Warehouse",
+        "time": "19:30",
+        "dates": ["2025-08-02", "2025-08-04", "2025-08-06"],
+    },
+    {
+        "name": "Disco Yoga",
+        "venue": "The Giggle Factory",
+        "time": "20:30",
+        "dates": ["2025-08-01", "2025-08-03", "2025-08-05"],
+    },
+    {
+        "name": "Haunted History Tour",
+        "venue": "Banana Cabaret",
+        "time": "21:30",
+        "dates": ["2025-08-02", "2025-08-04", "2025-08-06"],
+    },
+    {
+        "name": "Bingo with Puppets",
+        "venue": "Laugh Lounge",
+        "time": "19:30",
+        "dates": ["2025-08-01", "2025-08-02", "2025-08-03"],
+    },
+    {
+        "name": "Jazzercise through the Ages",
+        "venue": "The Chuckle Hut",
+        "time": "20:30",
+        "dates": ["2025-08-02", "2025-08-04", "2025-08-06"],
+    },
+    {
+        "name": "The Great Spaghetti Juggling",
+        "venue": "Wacky Warehouse",
+        "time": "21:30",
+        "dates": ["2025-08-03", "2025-08-05", "2025-08-07"],
+    },
 ]
 
 
