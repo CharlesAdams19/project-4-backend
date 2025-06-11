@@ -1,5 +1,7 @@
 from rest_framework import serializers
 from .models import Itinerary
+from rest_framework import serializers
+from .models import Itinerary, Show
 
 class ItinerarySerializer(serializers.ModelSerializer):
     user = serializers.SerializerMethodField()
@@ -14,3 +16,8 @@ class ItinerarySerializer(serializers.ModelSerializer):
             'id': obj.user.id,
             'username': obj.user.username
         }
+
+class ShowSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Show
+        fields = '__all__'

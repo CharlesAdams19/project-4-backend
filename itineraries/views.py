@@ -3,6 +3,9 @@ from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIV
 from rest_framework.permissions import IsAuthenticated
 from .models import Itinerary
 from .serializers import ItinerarySerializer
+from rest_framework.generics import ListAPIView
+from .models import Show
+from .serializers import ShowSerializer
 
 
 class ItineraryListCreateView(ListCreateAPIView):
@@ -25,3 +28,7 @@ class AllItinerariesListView(ListAPIView):
     queryset = Itinerary.objects.all()
     serializer_class = ItinerarySerializer
     permission_classes = [IsAuthenticated]
+
+class ShowListView(ListAPIView):
+    queryset = Show.objects.all()
+    serializer_class = ShowSerializer
