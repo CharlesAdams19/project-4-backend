@@ -30,7 +30,7 @@ def run():
                 end_dt = f"{date}T{int(show.time.split(':')[0]) + 1}:30:00"
 
                 itinerary_items.append({
-                    'id': random.randint(1000, 9999),  # unique random id
+                    'id': random.randint(1000, 9999),  
                     'show_name': show.name,
                     'start': start_dt,
                     'end': end_dt,

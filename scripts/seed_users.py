@@ -20,4 +20,4 @@ def run():
         else:
             print(f'⚠️ User already exists: {user_data["username"]}')
 
-    print('✅ User seeding complete!')
+    print('User seeding complete!')
